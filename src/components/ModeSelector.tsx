@@ -11,6 +11,7 @@ const modes: { value: Mode; label: string }[] = [
   { value: "timer", label: "Timer" },
   { value: "stopwatch", label: "Stopwatch" },
   { value: "realtime", label: "Clock" },
+  { value: "service", label: "Service" },
 ];
 
 export default function ModeSelector({ mode, onModeChange }: ModeSelectorProps) {
