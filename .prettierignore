@@ -1,0 +1,36 @@
+# Dependencies and build
+node_modules
+.next
+out
+build
+.vercel
+
+# Lock files (avoid noisy diffs)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+
+# Generated / tooling
+next-env.d.ts
+*.tsbuildinfo
+
+# Coverage and logs
+coverage
+*.log
+
+# Static / binary assets (not formatted)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.webp
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Optional: uncomment if you don't want to format these
+# public/sw.js
+# public/manifest.json
